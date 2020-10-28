@@ -1,7 +1,7 @@
-Welcome to the AWS CodeStar sample web application
+Welcome to the Backbone application
 ==================================================
 
-This sample code helps get you started with a simple Django web application
+This sample code combines a simple Django web application
 deployed by AWS CodeDeploy and AWS CloudFormation to an Amazon EC2 server.
 
 What's Here
@@ -23,7 +23,7 @@ This sample includes:
   SECRET_KEY. Before running in a production environment, you should replace this
   application key with one you generate
   (see https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/#secret-key for details)
-* helloworld/ - this directory contains your Django application files
+* helloworld/ - this directory contains sample Django application files
 * manage.py - this Python script is used to start your Django web application
 * scripts/ - this directory contains scripts used by AWS CodeDeploy when
   installing and deploying your application on the Amazon EC2 instance
@@ -41,7 +41,7 @@ from the Amazon EC2 instance itself. If you're on the Amazon EC2 instance, the
 virtual environment is already set up for you, and you can start working on the
 code.
 
-To work on the sample code, you'll need to clone your project's repository to your
+To work on the code, you'll need to clone your project's repository to your
 local computer. If you haven't, do that first. You can find instructions in the AWS CodeStar user guide at https://docs.aws.amazon.com/codestar/latest/userguide/getting-started.html#clone-repo.
 
 1. Create a Python virtual environment for your Django project. This virtual
